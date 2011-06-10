@@ -1,0 +1,18 @@
+LAMP 0.1 README
+
+Thank you for downloading the LAMP GUI!
+
+This Python script assumes that you already have installed apache2, mysql and php. If that is not the case, please install them.
+
+INSTALL::
+
+Drop the contents of the compressed archived to /opt/lamp. You may also choose another directory of your liking, but you would need to change the lamp.py file accordingly:
+	Row 90 & 101	-> change /opt/lamp to the directory you chose
+
+You can create a launcher by using alacarte and creating a new launcher with the following parameters:
+	usr/bin/python /opt/lamp/lamp.py
+Use the provided icon.svg (fits the FAENZA ICON PACK) or create your own.
+
+USE::
+
+You can start an stop the apache and mysql service with the "Start Server" or "Stop Server" button in the main GUI. You can edit the config files for both services through the edit menu in the menubar.
